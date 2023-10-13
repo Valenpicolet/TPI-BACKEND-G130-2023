@@ -1,0 +1,30 @@
+Para clonar un repositorio
+git clone <url_repo>
+
+Para saber si hicimos cambios 
+git status
+
+Para subir nuestros cambios (del repositorio local) al repositorio remoto:
+git add .
+git commit -m “<mensaje>”
+git push -u origin <rama>
+
+Para bajar cambios de otros
+git pull
+
+Para cambiar/crear branch/rama 
+git checkout <rama>
+git checkout -b <nuevarama>
+
+Para saber en qué rama estamos
+git branch
+
+Para borrar una rama local
+git branch -D <rama>
+
+Para decirle a git que no pida nuestras credenciales en cada pull o push
+git config --local credential.helper store
+
+Para configurar nombre y mail que aparecerán en los commit
+git config --local user.name "mariavalentinapicolet"
+git config --local user.email "mariavalentinapicolet@gmail.com"
