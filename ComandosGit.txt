@@ -16,6 +16,9 @@ Para cambiar/crear branch/rama
 git checkout <rama>
 git checkout -b <nuevarama>
 
+Para Subir las nuevas ramas creadas
+git push --set-upstream origin <nuevarama>
+
 Para saber en qué rama estamos
 git branch
 
@@ -28,3 +31,4 @@ git config --local credential.helper store
 Para configurar nombre y mail que aparecerán en los commit
 git config --local user.name "mariavalentinapicolet"
 git config --local user.email "mariavalentinapicolet@gmail.com"
+
